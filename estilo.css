@@ -1,0 +1,65 @@
+/*O intuito da estética escolhida para o site, foi tentar aproximar ao máximo a um Old WebCore*/
+
+/*Uso de Comic Sans (sim, eu sei o que você está pensando kk)*/
+@font-face {
+    font-family: ComicSans;
+    src: url(fontes/Comic\ Sans\ MS\ Bold.ttf);
+}
+
+/*Aumento de Fonte <h1> e centralização*/
+h1{
+    font-size: xx-large;
+    text-align: center;  
+}
+
+/*Corpo do site, com background e algumas funções para não repetir a imagem de fundo*/
+body{
+    background-image: url(img/vaporwave-Windows-95-Windows-98-classical-art-minimalism-1452395-wallhere.com.jpg);
+    background-position: center top;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-color: #009a9a;
+    font-family: ComicSans;
+}
+
+/*Display do Menu de Navegação*/
+.menu{
+    display: inline-block;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    margin-right: 2%;
+    padding: 5px;
+    border: 5px;
+    position: fixed;
+    float: left;
+    box-sizing: border-box;
+}
+
+/*Correções para a padronização das caixas de cada link*/
+.links{
+    padding: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+/*Estilização dos parágrafos*/
+.paragrafo{
+    width: 40%;
+    margin-left:14%;
+    padding: 2%;
+    background-color: aquamarine;
+    color: darkgreen ;
+    float: left;
+    box-sizing: border-box;
+    font-size:large;
+}
+
+/*Padronização na forma de apresentar as imagens*/
+.image{
+    box-sizing: border-box;
+    margin-top: 2%;
+    margin-left: 4%;
+
+}
