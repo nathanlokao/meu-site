@@ -14,7 +14,7 @@ h1{
 
 /*Corpo do site, com background e algumas funções para não repetir a imagem de fundo*/
 body{
-    background-image: url(img/vaporwave-Windows-95-Windows-98-classical-art-minimalism-1452395-wallhere.com.jpg);
+    background-image: url(vaporwave-Windows-95-Windows-98-classical-art-minimalism-1452395-wallhere.com.jpg);
     background-position: center top;
     background-repeat:no-repeat;
     background-attachment: fixed;
