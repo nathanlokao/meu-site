@@ -3,7 +3,7 @@
 /*Uso de Comic Sans (sim, eu sei o que você está pensando kk)*/
 @font-face {
     font-family: ComicSans;
-    src: url(Comic Sans MS Bold.ttf);
+    src: url("Comic Sans MS Bold.ttf");
 }
 
 /*Aumento de Fonte <h1> e centralização*/
